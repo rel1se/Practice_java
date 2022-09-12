@@ -13,7 +13,7 @@ public class Milan_Real extends JFrame{
     private int Mil = 0,Mad = 0;
     public Milan_Real(){
         setContentPane(panel1);
-        setSize(400,400);
+        setSize(200 ,250);
         Milan.setSize(50,50);
         panel1.add(Milan);
         Real.setSize(50,50);
