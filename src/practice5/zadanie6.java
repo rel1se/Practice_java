@@ -1,5 +1,11 @@
 package practice5;
 import java.lang.*;
+/*
+Дано натуральное число n>1.
+Проверьте, является ли оно простым.
+Программа должна вывести слово YES, если число простое и NO, если число составное.
+Алгоритм должен иметь сложность O(logn).
+*/
 public class zadanie6 {
     public static int recur(int n,int i){
         if (n == 2) {

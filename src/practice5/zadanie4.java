@@ -1,5 +1,11 @@
 package practice5;
 import java.lang.*;
+/*
+Даны натуральные числа k и s.
+Определите, сколько существует k-значных натуральных чисел, сумма цифр которых равна d.
+Запись натурального числа не может начинаться с цифры 0.
+*/
+
 public class zadanie4 {
     public static int recur(int len, int sum, int k, int s) {
         if (len == k) {
