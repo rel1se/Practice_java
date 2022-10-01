@@ -1,15 +1,15 @@
 package practice6;
 
 public class Exec {
-    public static <T> void insertionSort(Comparable<T>[] arr) {
+    public static <T> void insertionSort(Comparable<T>[] array) {
         Comparable<T> current;
-        for (int i = 1; i < arr.length; i++) {
-            current = arr[i];
+        for (int i = 1; i < array.length; i++) {
+            current = array[i];
             for (int j = i; j > 0; j--) {
-                if (arr[j - 1].compareTo((T) current) == 1) {
-                    arr[j] = arr[j - 1];
+                if (array[j - 1].compareTo((T) current) == 1) {
+                    array[j] = array[j - 1];
                 } else {
-                    arr[j] = current;
+                    array[j] = current;
                     break;
                 }
             }

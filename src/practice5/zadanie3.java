@@ -10,11 +10,9 @@ public class zadanie3 {
             if (a == b) {
                 return Integer.toString(a);
             }
-
             return a + " " + recur((a + 1), b);
         }
         else{
-
             if (a > b) {
                 if (a == b) {
                     return Integer.toString(a);
