@@ -38,7 +38,7 @@ public class game {
         return res;
     }
     public static void main(String[] args) {
-        System.out.println(new game("13579", "24680").play());
+        System.out.println(new game("3579", "468012").play());
         System.out.println(new game("12345", "67890").play());
     }
 }

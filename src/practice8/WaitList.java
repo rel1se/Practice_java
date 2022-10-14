@@ -9,12 +9,10 @@ public class WaitList<E> implements IWaitList<E>{
     WaitList(Collection<E> c){
         contents = new ConcurrentLinkedQueue<>(c);
     }
-
     @Override
     public void add(E element) {
         contents.add(element);
     }
-
     @Override
     public E remove() {
         return contents.remove();
