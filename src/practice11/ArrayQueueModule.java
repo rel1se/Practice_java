@@ -6,7 +6,6 @@ public class ArrayQueueModule {
     private static int size;
     private static int head;
     private static int tail;
-
     public ArrayQueueModule() {
         array = new Object[CAPACITY];
         size = head = tail = 0;

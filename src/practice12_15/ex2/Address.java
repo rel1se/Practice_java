@@ -18,7 +18,6 @@ public class Address {
         building = array[5];
         apartment = array[6];
     }
-
     @Override
     public String toString() {
         return new StringBuffer()
