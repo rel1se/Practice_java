@@ -4,11 +4,23 @@ public class Person {
     String name;
     String surname;
     String patronymic;
+    public Person(String surname){
+        System.out.println(surname);
+    }
+    public Person(String surname,String name){
+        System.out.println(surname + " " + name.charAt(0) + ".");
+    }
     public Person(String surname,String name, String patronymic){
+        System.out.println(surname + " " + name.charAt(0) + "." + " "+ patronymic.charAt(0) + ".");
+    }
+    public Person(){
+        System.out.println("");
+    }
+    /*public Person(String surname,String name, String patronymic){
         this.name = name;
         this.surname = surname;
         this.patronymic = patronymic;
-    }
+    }*/
     private StringBuffer getInitial(String word){
         if (word != ""){
             return new StringBuffer().append(word.charAt(0)).append(".");
