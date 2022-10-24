@@ -6,12 +6,10 @@ public class ArrayQueueADT {
     private int size;
     private int head;
     private int tail;
-
     public ArrayQueueADT() {
         array = new Object[CAPACITY];
         size = head = tail = 0;
     }
-
     private static void ensureCapacity(ArrayQueueADT adt, int capacity) {
         if (capacity >= adt.array.length) {
             Object[] temp = new Object[adt.array.length << 1];
