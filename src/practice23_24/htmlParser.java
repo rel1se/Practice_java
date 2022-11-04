@@ -25,7 +25,7 @@ public class htmlParser {
                     String name = link.substring(link.lastIndexOf("/") + 1);
                     URL url = new URL(link);
                     InputStream in = url.openStream();
-                    Files.copy(in, Paths.get("/Users/vyacheslavbotoev/IdeaProjects/projectr_one/src/practice23_24/htmlParser/img" + name), StandardCopyOption.REPLACE_EXISTING);
+                    Files.copy(in, Paths.get("C:\\Users\\botoe\\IdeaProjects\\java_oop\\src\\practice23_24\\htmlParser\\img" + name), StandardCopyOption.REPLACE_EXISTING);
                     in.close();
 
                 }
