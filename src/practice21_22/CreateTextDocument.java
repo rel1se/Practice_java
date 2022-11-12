@@ -12,4 +12,16 @@ public class CreateTextDocument implements ICreateDocument{
         System.out.println("Open");
         return new TextDocument();
     }
+
+    @Override
+    public IDocument CreateSave() {
+        System.out.println("Saved!");
+        return null;
+    }
+
+    @Override
+    public IDocument CreateExit() {
+        System.out.println("Exiting...");
+        return null;
+    }
 }
